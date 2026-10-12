@@ -12,7 +12,7 @@
       <li>Create a NEMO user and ensure that it is active. A Description and/or User Type "System" may be helpful, but isn't necessary.</li>
       <li>In Detailed Administration, find User Permissions and grant "view" access to each type of desired API output.</li>
       <li>In Detailed Administration, open Tokens and add a token for your API user. Copy the Token Key.</li>
-      <li>Edit the .env file to use your NEMO URL. Paste the Token Key into the API_TOKEN value.</li>
+      <li>Edit the .env file to paste the Token Key into the API_TOKEN value.  Add your NEMO URL to the API_URL value, ensuring that the URL ends with "/api"</li>
     </ol>
     <p>Your script should be ready for use and modification!</p>
     <h1>Tips for use</h1>
