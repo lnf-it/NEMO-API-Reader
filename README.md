@@ -2,7 +2,7 @@
 <html lang="en">
   <body>
     <h1>NEMO-API-Reader</h1>
-    <p>A lightweight Pythong script that retrieves NEMO API data.</p>
+    <p>A lightweight Python script that retrieves NEMO API data.</p>
     <h1>Prerequisites</h1>
     <ol><li>Install python3 and these packages:</li>
           <ul><li>dotenv</li>
