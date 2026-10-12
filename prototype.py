@@ -1,7 +1,10 @@
 """
 2026-06-15 Joseph Velez
 This prototype retrieves NEMO API data from one or more API paths to provide a simple report.
-Understanding the filters for a given API is essential.  I recommend opening the desired NEMO API; when it finishes loading, click "Filters". Ideally set a desired value and click Submit, but you can still get the filters by supplying any value.
+Understanding the filters for a given API is essential.  I recommend opening the desired NEMO API; when it finishes loading, click "Filters". 
+Ideally set a desired value and click Submit, but you can still get the filters by supplying any value.
+This prototype was designed to be run repeatedly by Task Scheduler or cron, and to guard against multiple instances of the script from running simultaneously. 
+If the script has an uncaught failure, you may need to delete the lock file manually.
 """
 # Load libraries
 import os
