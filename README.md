@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>NEMO-API-Reader</title>
-  </head>
   <body>
     <h1>NEMO-API-Reader</h1>
     <p>A lightweight Pythong script that retrieves NEMO API data.</p>
