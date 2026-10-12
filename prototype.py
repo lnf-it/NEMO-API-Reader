@@ -5,6 +5,8 @@ Understanding the filters for a given API is essential.  I recommend opening the
 Ideally set a desired value and click Submit, but you can still get the filters by supplying any value.
 This prototype was designed to be run repeatedly by Task Scheduler or cron, and to guard against multiple instances of the script from running simultaneously. 
 If the script has an uncaught failure, you may need to delete the lock file manually.
+
+CAUTION: JSON datetime format is not fully compatible with the native Python datetime format.  If you add a new api_path, review the fetch_api defintion around line 110.
 """
 # Load libraries
 import os
