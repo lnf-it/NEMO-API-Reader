@@ -1,5 +1,3 @@
-# NEMO-API-Reader
-Expandable Python script to fetch NEMO API
 <!DOCTYPE html>
 <html lang="en">
   <head>
